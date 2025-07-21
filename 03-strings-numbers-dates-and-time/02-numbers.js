@@ -5,7 +5,7 @@ function exercise1() {
 
         let binary = '';
         while (number > 0) {
-            binary = (`${number % 2}`) + binary;
+            binary = (number % 2) + binary;
             number = Math.floor(number / 2)
         }
         return binary;
@@ -65,9 +65,9 @@ function exercise6() {
     console.log(isBetweenDates(date2, date1, date3))
 }
 
-// exercise1()
+exercise1()
 // exercise2()
 // exercise3()
 // exercise4()
 // exercise5()
-exercise6()
+// exercise6()
