@@ -17,7 +17,7 @@ function exercise3() {
         }
 
         console.log(number || "Lift-off!");
-        setTimeout(countDown, (3 - number) * 1000, --number);
+        setTimeout(countDown, 1000, --number);
     }
 
     countDown(3);
@@ -61,6 +61,6 @@ function exercise5() {
 }
 
 // exercise2();
-// exercise3();
+exercise3();
 // exercise4();
-exercise5();
+// exercise5();
