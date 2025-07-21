@@ -3,7 +3,7 @@ function Person(name, age) {
     this.name = name
     this.age = age
     this.describe = function() {
-        return `${this.name}, ${this.age} years old`
+        return `${this.name}, ${this.age} years old`;
     }
 }
 
